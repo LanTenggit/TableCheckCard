@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F9C6150-A759-4069-AF52-75ECC6CEC20B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ESD_Kanban.My.MyApplication</StartupObject>
+    <RootNamespace>ESD_Kanban</RootNamespace>
+    <AssemblyName>ESD Kanban</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ESD Kanban.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ESD Kanban.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>network_128px_517098_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Desktop\json.net\Bin\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\AGV行车记录查询\AGV行车记录查询\bin\x86\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRCClass\CRCClass.vb" />
+    <Compile Include="DBConfig\ConnectionString.vb" />
+    <Compile Include="DBConfig\DataBinding.vb" />
+    <Compile Include="DBConfig\DBCommand.vb" />
+    <Compile Include="DBConfig\DBConnection.vb" />
+    <Compile Include="DBConfig\DBDataReader.vb" />
+    <Compile Include="DBConfig\DBDataRelation.vb" />
+    <Compile Include="DBConfig\DBDataTable.vb" />
+    <Compile Include="DeviceDataClass\DeviceReceiveDataClass.vb" />
+    <Compile Include="ESD报警器维护\ESD_Maintain.Designer.vb">
+      <DependentUpon>ESD_Maintain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESD报警器维护\ESD_Maintain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESD状态控件\ESD_STATE.Designer.vb">
+      <DependentUpon>ESD_STATE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESD状态控件\ESD_STATE.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ESD.Designer.vb">
+      <DependentUpon>ESD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ESD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrom.Designer.vb">
+      <DependentUpon>MainFrom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MTTR.Designer.vb">
+      <DependentUpon>MTTR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MTTR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="同步服务器时间\GetSYSTEMTIME.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="串口通信\SerialClass.vb" />
+    <Compile Include="函数模块\Model_set.vb" />
+    <Compile Include="将失败的记录重新提交服务器\Retry_uploading.vb" />
+    <Compile Include="报警器协议控件\ESD_Agreement.Designer.vb">
+      <DependentUpon>ESD_Agreement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="报警器协议控件\ESD_Agreement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="服务器地址选择\Server_Address_Selection.vb" />
+    <Compile Include="班长或线体选择\from_Squad_leader_selection.Designer.vb">
+      <DependentUpon>from_Squad_leader_selection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="班长或线体选择\from_Squad_leader_selection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备可视化控件\UserDeviceInfo.Designer.vb">
+      <DependentUpon>UserDeviceInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="设备可视化控件\UserDeviceInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="设备设置\DeviceSet.Designer.vb">
+      <DependentUpon>DeviceSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="设备设置\DeviceSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设备设置\User_Device.Designer.vb">
+      <DependentUpon>User_Device.vb</DependentUpon>
+    </Compile>
+    <Compile Include="设备设置\User_Device.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="设置\from_Setting.Designer.vb">
+      <DependentUpon>from_Setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="设置\from_Setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="采集数据上传SQL\Info_uploading.vb" />
+    <Compile Include="错误记录\Error_record.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ESD报警器维护\ESD_Maintain.resx">
+      <DependentUpon>ESD_Maintain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESD状态控件\ESD_STATE.resx">
+      <DependentUpon>ESD_STATE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESD.resx">
+      <DependentUpon>ESD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrom.resx">
+      <DependentUpon>MainFrom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MTTR.resx">
+      <DependentUpon>MTTR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="报警器协议控件\ESD_Agreement.resx">
+      <DependentUpon>ESD_Agreement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="班长或线体选择\from_Squad_leader_selection.resx">
+      <DependentUpon>from_Squad_leader_selection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备可视化控件\UserDeviceInfo.resx">
+      <DependentUpon>UserDeviceInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备设置\DeviceSet.resx">
+      <DependentUpon>DeviceSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设备设置\User_Device.resx">
+      <DependentUpon>User_Device.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设置\from_Setting.resx">
+      <DependentUpon>from_Setting.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\Update_Detection" />
+    <None Include="Resources\错误.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\锁附机.jpg" />
+    <None Include="Resources\人员.png" />
+    <None Include="Resources\禁用%281%29.png" />
+    <None Include="Resources\启用.png" />
+    <None Include="Resources\禁用1.png" />
+    <None Include="Resources\禁用.png" />
+    <None Include="Resources\灯泡%28绿色%29.png" />
+    <None Include="Resources\灯泡%28灰色%29.png" />
+    <None Include="Resources\灯泡%28红色%29.png" />
+    <None Include="Resources\ESD.png" />
+    <None Include="Resources\灰色格子4.png" />
+    <None Include="bin\Debug\绿格子.png" />
+    <None Include="bin\Debug\黄格子.png" />
+    <None Include="bin\Debug\红格子.png" />
+    <Content Include="network_128px_517098_easyicon.net.ico" />
+    <None Include="Resources\离线.png" />
+    <None Include="Resources\正常%281%29.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

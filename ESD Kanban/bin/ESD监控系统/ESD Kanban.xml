@@ -1,0 +1,1462 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ESD Kanban
+</name>
+</assembly>
+<members>
+<member name="T:ESD_Kanban.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.ResourceManager">
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.Culture">
+<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.ESD">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.String1">
+<summary>
+  查找类似  的本地化字符串。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.正常">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.灰色格子4">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.离线">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.红格子">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.绿格子">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.错误">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="P:ESD_Kanban.My.Resources.Resources.黄格子">
+<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member>
+<member name="F:ESD_Kanban.DBConfig.ConnectionString.pass">
+ <summary>
+ SQL登录密码
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.DBConfig.ConnectionString.Comname">
+ <summary>
+ 服务器地址
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.DBConfig.ConnectionString.Bname">
+ <summary>
+ 数据库表名称
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.DBConfig.ConnectionString.ini_name">
+ <summary>
+ 默认ini配置文件名称
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.DBConfig.ConnectionString.Cpath">
+ <summary>
+ ini配置文件输出位置
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.ConnectionString.info">
+ <summary>
+ 返回配置文件中的SQL登录数据
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.BindComboBox(System.Windows.Forms.ComboBox@,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ 用指定表的指定列的值填充ComboBox控件
+ </summary>
+ <param name="combo">ComboBox控件</param>
+ <param name="tableName">表名称</param>
+ <param name="column">数量</param>
+ <param name="connStr">SQL连接字符串</param>
+ <param name="field">条件1</param>
+ <param name="op">条件2</param>
+ <param name="value">条件3</param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.FillIndexTextBox(System.Windows.Forms.TextBox@,System.String,System.String,System.String)">
+ <summary>
+ 生成指定表的Index字段的值，显示在TextBox上
+ </summary>
+ <param name="txt"></param>
+ <param name="tableName"></param>
+ <param name="Column"></param>
+ <param name="connStr"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.FillTextBox(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ 显示根据指定表的指定列的值，包含该值的记录由条件子句决定
+ </summary>
+ <param name="txt"></param>
+ <param name="tableName"></param>
+ <param name="Column"></param>
+ <param name="connStr"></param>
+ <param name="field"></param>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.SetComboSelectedIndex(System.Windows.Forms.ComboBox@,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ 根据指定的查询条件得到一条查询记录，设置ComboBox被选中项为该条记录某列的值
+ </summary>
+ <param name="combo"></param>
+ <param name="tableName"></param>
+ <param name="Column"></param>
+ <param name="connStr"></param>
+ <param name="field"></param>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.SetDataGridView(System.Windows.Forms.DataGridView@,System.String,System.String,System.String)">
+ <summary>
+ 将数据库数据绑定到DataGridView表中
+ </summary>
+ <param name="Grid"></param>
+ <param name="tableName"></param>
+ <param name="connStr"></param>
+ <param name="SQLStr"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.DataGridViewReset(System.Windows.Forms.DataGridView)">
+ <summary>
+ 清空DataGridView
+ </summary>
+ <param name="dgv">控件名称 如: DataGridView</param>
+ <remarks></remarks>
+
+</member>
+<member name="M:ESD_Kanban.DBConfig.DataBinding.FillListView(System.Windows.Forms.ListView@,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String)">
+ <summary>
+ 根据指定表和指定查询条件填充ListView
+ </summary>
+ <param name="lsv"></param>
+ <param name="tableName"></param>
+ <param name="liename"></param>
+ <param name="num"></param>
+ <param name="connStr"></param>
+ <param name="field"></param>
+ <param name="op"></param>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBCommand.Insert(System.String)">
+ <summary>
+ 插入数据到SQL数据库表中
+ </summary>
+ <param name="strSQL">SQL代码</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBCommand.Delete(System.String,System.String,System.String)">
+ <summary>
+ 删除SQL数据库表中的数据
+ </summary>
+ <param name="table">表名称</param>
+ <param name="row">条件</param>
+ <param name="value">值</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBCommand.Update(System.String,System.String,System.String,System.String)">
+ <summary>
+ 更新SQL数据库表中的数据
+ </summary>
+ <param name="table">表名称</param>
+ <param name="strContent">数据库连接字符串</param>
+ <param name="row">条件</param>
+ <param name="value">值</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBCommand.Update(System.String)">
+ <summary>
+ 更新SQL数据库表中的数据
+ </summary>
+ <param name="sql">sql语句</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.DBConfig.DBConnection.ConnStr">
+ <summary>
+ 声明一个受保护变量存储连接数据库的信息
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBConnection.Open">
+ <summary>
+ 打开数据库
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBConnection.Close">
+ <summary>
+ 关闭连接
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBDataReader.#ctor(System.String)">
+ <summary>
+ 在构造函数中指定连接信息字符串
+ </summary>
+ <param name="str"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBDataRelation.#ctor(System.String)">
+ <summary>
+ 在构造函数中指定连接信息字符串
+ </summary>
+ <param name="Str"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.DBConfig.DBDataTable.#ctor(System.String)">
+ <summary>
+ 在构造函数中指定连接信息字符串
+ </summary>
+ <param name="str"></param>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_Maintain.ESD_NUM">
+ <summary>
+ ESD编号
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_Maintain.ESD_STATE">
+ <summary>
+ ESD状态
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.ESD_Maintain.Model">
+ <summary>
+ 模式选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.ESD_Maintain.Model.Left">
+ <summary>
+ 左
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.ESD_Maintain.Model.right">
+ <summary>
+ 右
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_Maintain.t_position">
+ <summary>
+ 左边采集器还是右边采集器
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_STATE.t_state">
+ <summary>
+ ESD状态
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_STATE.t_number">
+ <summary>
+ ESD编号
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_STATE.t_getdate">
+ <summary>
+ 刷新时间
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.ESD_STATE.State">
+ <summary>
+ 状态枚举
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.ESD_STATE.ESDSTATE(ESD_Kanban.ESD_STATE.State)">
+ <summary>
+ 设置
+ </summary>
+ <param name="state"></param>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_STATE.IsEnable">
+ <summary>
+ 只读,ESD是否被启用
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.ESD_STATE.PerformClick">
+ <summary>
+ 点击事件
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.ESD_STATE.Model">
+ <summary>
+ 模式选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.ESD_STATE.Model.Left">
+ <summary>
+ 左
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.ESD_STATE.Model.right">
+ <summary>
+ 右
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_STATE.t_position">
+ <summary>
+ 左边采集器还是右边采集器
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.ESD_STATE.ESD_click">
+ <summary>
+ ESD点击事件
+ </summary>
+ <param name="esd_num">ESD编号</param>
+ <param name="esd_state">ESD状态</param>
+ <remarks></remarks>
+</member>
+<member name="E:ESD_Kanban.ESD_STATE.ESD_Event">
+ <summary>
+ esd点击事件
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.ESD_STATE.ESD_STATE_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ 按钮弹起事件
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.ESD_STATE.PictureBox1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ 单击控件事件
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.esdcontrols_Left">
+ <summary>
+ ESD控件集合(左边)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.esdcontrols_right">
+ <summary>
+ ESD控件集合(右边)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.ESD_click(System.String,System.String,ESD_Kanban.ESD_STATE.Model)">
+ <summary>
+ ESD按钮点击事件
+ </summary>
+ <param name="esd_num"></param>
+ <param name="esd_state"></param>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.esd_int_Left">
+ <summary>
+ 左边采集器计数
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.esd_int_right">
+ <summary>
+ 右边采集器计数
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.S1">
+ <summary>
+ 数采控制器串口
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.sc_DataReceived_call_police(System.Object,System.IO.Ports.SerialDataReceivedEventArgs,System.Byte[])">
+ <summary>
+ 报警灯信息接收
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <param name="bits"></param>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Form1.t_State_num">
+ <summary>
+ ESD实时状态计数
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.t_State_num.ESD_Invalid">
+ <summary>
+ 错误
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.t_State_num.ESD_normal">
+ <summary>
+ 正常
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.t_State_num.ESD_Off_line">
+ <summary>
+ 离线
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.t_State_num.ESD_Initialization">
+ <summary>
+ 初始化
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.sc_DataReceived_Left(System.Object,System.IO.Ports.SerialDataReceivedEventArgs,System.Byte[])">
+ <summary>
+ 串口接收数据委托事件集合(数采控制器)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <param name="bits"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.sc_DataReceived_right(System.Object,System.IO.Ports.SerialDataReceivedEventArgs,System.Byte[])">
+ <summary>
+ 串口接收数据委托事件集合(数采控制器)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <param name="bits"></param>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Form1.toolText">
+ <summary>
+ 显示接收到的指令(委托)
+ </summary>
+ <param name="text"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.t_toolTEXT(System.String)">
+ <summary>
+ 显示接收到的指令
+ </summary>
+ <param name="text"></param>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.thread_esd_send_Left">
+ <summary>
+ 线体左边线程
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.thread_run_Left">
+ <summary>
+ ESD线程启动左边
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.thread_senddate_Left">
+ <summary>
+ [采集器A]线程循环发送串口指令
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ 关闭系统
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.Button2_Click(System.Object,System.EventArgs)">
+ <summary>
+ 报警灯控制
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.Coltrols_Call_police_Left">
+ <summary>
+ 报警状态轮询
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.Scanning_times">
+ <summary>
+ 扫描次数
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.controls_do">
+ <summary>
+ 报警灯(红灯)闪耀
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Form1.t_Ng_num">
+ <summary>
+ 反馈异常数据到UI的委托实现
+ </summary>
+ <param name="val"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.Ng_num(System.Int32)">
+ <summary>
+ 异常数量
+ </summary>
+ <param name="val"></param>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.thread_esd_send_right">
+ <summary>
+ 线体右边线程
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.thread_run_right">
+ <summary>
+ ESD线程启动 右边
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.thread_senddate_right">
+ <summary>
+ [采集器B]线程循环发送串口指令
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.thread_bol">
+ <summary>
+ 采集器线程运行开关
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Form1.Button6_Click(System.Object,System.EventArgs)">
+ <summary>
+ 采集器工作开关
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Form1.thread_Statistical_chart">
+ <summary>
+ 统计图表线程对象
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Form1.Statistical_thread_start">
+ <summary>
+ 启动统计图表线程
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Form1.Statistical_thread_stop">
+ <summary>
+ 终止线程
+ </summary>
+</member>
+<member name="F:ESD_Kanban.Form1.chart_bol">
+ <summary>
+ 指示线程是否被启动
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Form1.Statistical_chart">
+ <summary>
+ 统计图表方法
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Form1.CreateGraph_GradientByZBars(ZedGraph.ZedGraphControl,System.String,System.Collections.Generic.Dictionary{System.String,ESD_Kanban.Form1.Set_indexes},System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 柱子图,异常次数日看板
+ </summary>
+ <param name="z1">图表控件名称</param>
+ <param name="Title_name">标题名称</param>
+ <param name="getdic">数据源</param>
+ <param name="displacement">标签偏移量</param>
+ <param name="MAX">Y1最大值</param>
+ <param name="XFontSpec">X左边字体大小</param>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Form1.Set_indexes">
+ <summary>
+ ESD关键指标
+ </summary>
+</member>
+<member name="P:ESD_Kanban.Form1.Set_indexes.Get_ESD_number">
+ <summary>
+ ESD编号
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Form1.Set_indexes.Get_Abnormality_times">
+ <summary>
+ 异常次数
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Form1.Set_indexes.Get_Abnormal_time">
+ <summary>
+ 异常时间
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Form1.Set_indexes.Get_average_time">
+ <summary>
+ 平均时间
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:ESD_Kanban.GetSYSTEMTIME">
+ <summary>
+ 设置系统时间
+ </summary>
+</member>
+<member name="T:ESD_Kanban.GetSYSTEMTIME.SYSTEMTIME">
+ <summary>
+ 同步时间结构
+ </summary>
+</member>
+<member name="M:ESD_Kanban.GetSYSTEMTIME.Synchronization_time">
+ <summary>
+ 同步服务器时间
+ </summary>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.#ctor">
+ <summary>
+ 默认构造函数，操作COM1，速度为9600，没有奇偶校验，8位字节，停止位为1 "COM1", 9600, Parity.None, 8, StopBits.One
+ </summary>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.#ctor(System.String)">
+ <summary>
+ 构造函数,
+ </summary>
+ <param name="comPortName"></param>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.#ctor(System.String,System.Int32,System.IO.Ports.Parity,System.Int32,System.IO.Ports.StopBits)">
+ <summary>
+ 构造函数,可以自定义串口的初始化参数
+ </summary>
+ <param name="comPortName">需要操作的COM口名称</param>
+ <param name="baudRate">COM的速度</param>
+ <param name="parity">奇偶校验位</param>
+ <param name="dataBits">数据长度</param>
+ <param name="stopBits">停止位</param>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.Finalize">
+ <summary>
+ 析构函数，关闭串口
+ </summary>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.setSerialPort(System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 设置串口参数
+ </summary>
+ <param name="comPortName">需要操作的COM口名称</param>
+ <param name="baudRate">COM的速度</param>
+ <param name="dataBits">数据长度</param>
+ <param name="stopBits">停止位</param>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.setSerialPort">
+ <summary>
+ 设置串口资源,还需重载多个设置串口的函数
+ </summary>
+</member>
+<member name="P:ESD_Kanban.SerialClass.SerialClass.IsOpen">
+ <summary>
+ 串口打开状态
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.SerialClass.SerialClass.BytesToRead">
+ <summary>
+ 缓冲区的字节数量
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.openPort">
+ <summary>
+ 打开串口资源
+ <returns>返回bool类型</returns>
+ </summary>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.closePort">
+ <summary>
+ 关闭串口资源,操作完成后,一定要关闭串口
+ </summary>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass._serialPort_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+ <summary>
+ 接收串口数据事件
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass._serialPort_ErrorReceived(System.Object,System.IO.Ports.SerialErrorReceivedEventArgs)">
+ <summary>
+ 接收数据出错事件
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.SendData(System.Byte[],System.Int32,System.Int32)">
+ <summary>
+ 数据发送
+ </summary>
+ <param name="data">数据</param>
+ <param name="offset">一般为0</param>
+ <param name="count">数据长度</param>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.SendCommand(System.Byte[],System.Byte[]@,System.Int32)">
+ <summary>
+ 发送命令
+ </summary>
+ <param name="SendData">发送数据</param>
+ <param name="ReceiveData">接收数据</param>
+ <param name="Overtime">超时时间</param>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.serialsIsConnected">
+ <summary>
+ 获取所有已连接短信猫设备的串口
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.getSerials">
+ <summary>
+ 获得当前电脑上的所有串口资源
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.ByteToString(System.Byte[])">
+ <summary>
+ 把字节型转换成十六进制字符串
+ </summary>
+ <param name="InBytes"></param>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.StringToByte(System.String)">
+ <summary>
+ 把十六进制字符串转换成字节型(方法1)
+ </summary>
+ <param name="InString"></param>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.strToToHexByte(System.String)">
+ <summary>
+ 字符串转16进制字节数组(方法2)
+ </summary>
+ <param name="hexString"></param>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.SerialClass.SerialClass.byteToHexStr(System.Byte[])">
+ <summary>
+ 字节数组转16进制字符串
+ </summary>
+ <param name="bytes"></param>
+ <returns></returns>
+</member>
+<member name="F:ESD_Kanban.Model_set.progpath">
+ <summary>
+ 获取应用程序的安装目录
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.Configurationpath">
+ <summary>
+ 配置文件路径
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Model_set.GetPrivateProfileString(System.String@,System.String@,System.String@,System.String@,System.Int32,System.String@)">
+ <summary>
+ 声明INI配置文件读写API函数
+ </summary>
+ <param name="lpApplicationName"></param>
+ <param name="lpKeyName"></param>
+ <param name="lpDefault"></param>
+ <param name="lpReturnedString"></param>
+ <param name="nSize"></param>
+ <param name="lpFileName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Model_set.GetINI(System.String,System.String,System.String,System.String)">
+ <summary>
+ 定义读取配置文件函数
+ </summary>
+ <param name="Section"></param>
+ <param name="AppName"></param>
+ <param name="lpDefault"></param>
+ <param name="FileName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Model_set.WriteINI(System.String,System.String,System.String,System.String)">
+ <summary>
+ 定义写入配置文件函数
+ </summary>
+ <param name="Section"></param>
+ <param name="AppName"></param>
+ <param name="lpDefault"></param>
+ <param name="FileName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set._SC_Relay_control_Left">
+ <summary>
+ 实例化串口(数采控制器)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Relay_control_source_Left">
+ <summary>
+ 串口名称(数采控制器)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Relay_control_source_Baud_Left">
+ <summary>
+ 串口波特率(数采控制器)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set._SC_Relay_control_right">
+ <summary>
+ 实例化串口(数采控制器)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Relay_control_source_right">
+ <summary>
+ 串口名称(数采控制器)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Relay_control_source_Baud_right">
+ <summary>
+ 串口波特率(数采控制器)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set._SC_Cell_police_control">
+ <summary>
+ 实例化串口(报警灯控制)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Relay_control_Cell_police">
+ <summary>
+ 串口名称(报警灯设置)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Relay_control_Cell_police_Baud">
+ <summary>
+ 串口波特率(报警灯设置)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.Error_record">
+ <summary>
+ 错误信息记录
+ </summary>
+</member>
+<member name="F:ESD_Kanban.Model_set.esdUpdate">
+ <summary>
+ 上传ESD信息到SQL
+ </summary>
+</member>
+<member name="P:ESD_Kanban.Model_set.ESD_NUM_Left">
+ <summary>
+ ESD数量-左边
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.ESD_NUM_right">
+ <summary>
+ ESD数量-右边
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Scanning_interval">
+ <summary>
+ 扫描间隔时间
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Scanning_timeout">
+ <summary>
+ 超时时间
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Alarm_detection">
+ <summary>
+ 警报检测时间
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Process_pid">
+ <summary>
+ 返回程序本身的进程PID
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Model_set.ESDConfig">
+ <summary>
+ ESD串口协议结构
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_NUM">
+ <summary>
+ ESD编号
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_query">
+ <summary>
+ 查询
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_Off_line">
+ <summary>
+ 离线
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_Invalid">
+ <summary>
+ 失效
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_normal">
+ <summary>
+ 正常
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_Choice">
+ <summary>
+ 模式
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESDConfig.ESD_isEnable">
+ <summary>
+ 是否被启用
+ </summary>
+</member>
+<member name="T:ESD_Kanban.Model_set.Choice">
+ <summary>
+ 模式选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.Choice.Left">
+ <summary>
+ 左
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.Choice.right">
+ <summary>
+ 右
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.ESD_NUM(System.String,ESD_Kanban.Model_set.Choice)">
+ <summary>
+ ESD编号
+ </summary>
+ <param name="num"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESD_DIC_Left">
+ <summary>
+ A采集器串口指令集合
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.ESD_DIC_right">
+ <summary>
+ B采集器串口指令集合
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Model_set.Data_query(System.String,System.String)">
+ <summary>
+ 查询SQL,返回数据
+ </summary>
+ <param name="SQLString">SQL代码</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.t_Monitor">
+ <summary>
+ 班长
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.t_Line_body">
+ <summary>
+ 线体
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.T_Retry_Count">
+ <summary>
+ 信息提交失败后的重试次数
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:ESD_Kanban.Model_set.t_Pattern_selection">
+ <summary>
+ 窗体模式选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.Model_set.t_state">
+ <summary>
+ 模式选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.ESD_Enable(System.String,ESD_Kanban.Model_set.Choice)">
+ <summary>
+ 查询指定ESD报警器是否启用
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.hostName">
+ <summary>
+ 计算机名称
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.IPadd">
+ <summary>
+ 获取IP地址
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Model_set.GetMacAddress">
+ <summary>
+ 获取MAC地址
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.Model_set.Getdate">
+ <summary>
+ 返回服务器时间
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Retry_uploading.Submit_failed_data">
+ <summary>
+ 失败的数据
+ </summary>
+</member>
+<member name="P:ESD_Kanban.Retry_uploading.Submit_failed_data.SQL">
+ <summary>
+ SQL语句
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Retry_uploading.Submit_failed_data.Sign">
+ <summary>
+ 是否处理
+ </summary>
+ <returns>0为未处理，1为处理</returns>
+</member>
+<member name="P:ESD_Kanban.Retry_uploading.Submit_failed_data.GetErrString">
+ <summary>
+ 错误信息
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Retry_uploading.Submit_failed_data.GetStackTrace">
+ <summary>
+ 详细的错误信息
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Retry_uploading.Submit_failed_data.GetretryCount">
+ <summary>
+ 重试次数
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:ESD_Kanban.Retry_uploading.IsBol">
+ <summary>
+ 是否启动
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Retry_uploading.Retry_update">
+ <summary>
+ 重新加载失败的SQL语句
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Retry_uploading.Text_read(System.String)">
+ <summary>
+ 读取文本内容
+ </summary>
+ <param name="path"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.Retry_uploading.FindFile(System.String,System.String)">
+ <summary>
+ 遍历文件夹下面的全部文件
+ </summary>
+ <param name="sSourcePath">文件夹</param>
+ <param name="sType">类型 例如 *.*</param>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.ESD_Agreement.get_ESD_NUM">
+ <summary>
+ ESD编号
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ESD_Kanban.ESD_Agreement.ESD_Choice">
+ <summary>
+ 控件的读取模式
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.ESD_Agreement.model">
+ <summary>
+ 模式选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.from_Squad_leader_selection.t_Refresh">
+ <summary>
+ 刷新
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.from_Squad_leader_selection.Squad_leader_selection">
+ <summary>
+ 班长选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.from_Squad_leader_selection.Line_selection">
+ <summary>
+ 线体选择
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ESD_Kanban.from_Squad_leader_selection.Button_Click(System.Object,System.EventArgs)">
+ <summary>
+ 按钮事件
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.from_Setting">
+ <summary>
+ 设置
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ESD_Kanban.from_Setting.key">
+ <summary>
+ 软键盘
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:ESD_Kanban.Info_uploading">
+ <summary>
+ 信息上传到SQL
+ </summary>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Line_body">
+ <summary>
+ 线体
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Monitor">
+ <summary>
+ 班长
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.ESD_number">
+ <summary>
+ ESD编号
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.ESD_state">
+ <summary>
+ ESD状态
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Update_time">
+ <summary>
+ 更新时间
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.getGUID">
+ <summary>
+ GUID
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.Info_uploading.Update">
+ <summary>
+ 提交信息到服务器
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Info_uploading.Journal(System.Object)">
+ <summary>
+ 生成json日志
+ </summary>
+ <param name="data"></param>
+</member>
+<member name="T:ESD_Kanban.Info_uploading.Submit_failed_data">
+ <summary>
+ 失败的数据
+ </summary>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Submit_failed_data.SQL">
+ <summary>
+ SQL语句
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Submit_failed_data.Sign">
+ <summary>
+ 是否处理
+ </summary>
+ <returns>0为未处理，1为处理</returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Submit_failed_data.GetErrString">
+ <summary>
+ 错误信息
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Submit_failed_data.GetStackTrace">
+ <summary>
+ 详细的错误信息
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.Submit_failed_data.GetretryCount">
+ <summary>
+ 重试次数
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:ESD_Kanban.Info_uploading.T_Update">
+ <summary>
+ ESD数据结构
+ </summary>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.Line_body">
+ <summary>
+ 线体
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.Monitor">
+ <summary>
+ 班长
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.ESD_number">
+ <summary>
+ ESD编号
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.ESD_state">
+ <summary>
+ ESD状态
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.Update_time">
+ <summary>
+ 更新时间
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.GetGUID">
+ <summary>
+ GUID
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Info_uploading.T_Update.t_Creation_time">
+ <summary>
+ 创建时间
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:ESD_Kanban.Info_uploading.ESDINFO">
+ <summary>
+ ESD详细情况
+ </summary>
+</member>
+<member name="M:ESD_Kanban.Error_record.#ctor(System.String,System.String)">
+ <summary>
+ 记录错误信息
+ </summary>
+ <param name="ErrString">错误信息</param>
+ <param name="StackTrace">详细描述</param>
+</member>
+<member name="P:ESD_Kanban.Error_record.GetErrString">
+ <summary>
+ 错误信息
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ESD_Kanban.Error_record.GetStackTrace">
+ <summary>
+ 详细的错误信息
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ESD_Kanban.Error_record.Geterr(System.String,System.String)">
+ <summary>
+ 记录错误信息
+ </summary>
+ <param name="ErrString">错误信息</param>
+ <param name="StackTrace">详细描述</param>
+</member>
+</members>
+</doc>

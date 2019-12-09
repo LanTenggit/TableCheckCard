@@ -1,0 +1,92 @@
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\bin\Debug\ESD Kanban.exe.config
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\bin\Debug\ESD Kanban.exe
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\bin\Debug\ESD Kanban.pdb
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\bin\Debug\ESD Kanban.xml
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\bin\Debug\ZedGraph.dll
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD_Kanban.ESD_STATE.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD_Kanban.Form1.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD_Kanban.Resources.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD Kanban.vbproj.GenerateResource.Cache
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD Kanban.exe
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD Kanban.xml
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\ESD Kanban\obj\Debug\ESD Kanban.pdb
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.exe.config
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.exe
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.pdb
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.xml
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\Newtonsoft.Json.dll
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\bin\Debug\Newtonsoft.Json.xml
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Maintain.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.ESD_STATE.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.Form1.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.Resources.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Agreement.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.from_Squad_leader_selection.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.from_Setting.resources
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.vbproj.GenerateResource.cache
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.vbproj.CoreCompileInputs.cache
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.vbproj.CopyComplete
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.exe
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.xml
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.pdb
+C:\Users\YUAN.SUO\Documents\程序开发\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.vbprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.exe.config
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.exe
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.xml
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.pdb
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.exe
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.pdb
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\bin\Debug\ESD Kanban.xml
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Maintain.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.ESD_STATE.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.Form1.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.Resources.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Agreement.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.from_Squad_leader_selection.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.from_Setting.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD Kanban.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.Form2.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.MainFrom.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.DeviceSet.resources
+C:\Users\Administrator\Desktop\ESD在线看板\ESD Kanban\obj\Debug\ESD_Kanban.User_Device.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\bin\Debug\ESD Kanban.exe.config
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD Kanban.exe
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD Kanban.xml
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD Kanban.pdb
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\bin\Debug\ESD Kanban.exe
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\bin\Debug\ESD Kanban.pdb
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\bin\Debug\ESD Kanban.xml
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Maintain.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.ESD_STATE.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.Form1.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.Form2.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.MainFrom.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.Resources.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Agreement.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.from_Squad_leader_selection.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.DeviceSet.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.User_Device.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.from_Setting.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD Kanban.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD_Kanban.UserDeviceInfo.resources
+C:\Users\Administrator\Desktop\设备可视化\ESD Kanban\obj\Debug\ESD Kanban.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\bin\Debug\ESD Kanban.exe.config
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD Kanban.exe
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD Kanban.xml
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD Kanban.pdb
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\bin\Debug\ESD Kanban.exe
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\bin\Debug\ESD Kanban.pdb
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\bin\Debug\ESD Kanban.xml
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Maintain.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.ESD_STATE.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.Form2.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.MainFrom.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.Resources.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.ESD_Agreement.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.from_Squad_leader_selection.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.UserDeviceInfo.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.DeviceSet.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.User_Device.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD_Kanban.from_Setting.resources
+C:\Users\Administrator\Desktop\设备可视化 - 副本\ESD Kanban\obj\Debug\ESD Kanban.vbproj.GenerateResource.Cache
